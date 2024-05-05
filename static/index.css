@@ -1,0 +1,10 @@
+html, body, img {
+   overflow-x: hidden;
+   overflow-y: hidden;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   background-color: black;
+}

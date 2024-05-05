@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <title>DeskAppWeb</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body oncontextmenu="return false;" id="frame">
+    <img draggable="false" id="display" src="">
+    <script type="text/javascript">
+      const display = document.querySelector('#display');
+      var mediaSocket = new WebSocket("ws://{{ url }}/media");
+      var inputSocket = new WebSocket("ws://{{ url }}/input");
+      var useJoinedPos = {{ use_joined_pos }};
+    </script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
