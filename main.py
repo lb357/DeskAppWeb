@@ -10,11 +10,6 @@ import json
 import pydirectinput
 import os
 
-# URL = "6.tcp.eu.ngrok.io:16351"
-# IP = "localhost"
-URL = "192.168.100.29"
-IP = "192.168.100.29"
-PORT = 80
 
 class configurator:
     def __init__(self, config_file = "config.json"):
